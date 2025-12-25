@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <title>Asian Dramas</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>Asian Dramas</h1>
+  <button onclick="openLogin()">Login</button>
+</header>
+
+<main id="dramas"></main>
+
+<!-- MODAL LOGIN -->
+<div class="modal" id="loginModal">
+  <div class="modal-box">
+    <h2>Login</h2>
+    <input id="email" placeholder="Email">
+    <input id="password" type="password" placeholder="Senha">
+    <button onclick="login()">Entrar</button>
+    <span onclick="closeLogin()">×</span>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
