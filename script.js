@@ -1,4 +1,4 @@
-const API = "https://SEU_BACKEND/api";
+const API = "asiandramas.fwh.is";
 
 fetch(`${API}/dramas.php`)
   .then(r => r.json())
@@ -32,3 +32,4 @@ function login() {
   .then(d => alert("Bem-vindo " + d.users))
   .catch(() => alert("Erro de login"));
 }
+
